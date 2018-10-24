@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier",
+    "tslint-no-loops"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "printWidth": 80,
+        "singleQuote": true,
+        "bracketSpacing": false,
+        "trailingComma": "es5"
+      }
+    ],
+    "interface-name": [true, "never-prefix"],
+    "no-increment-decrement": false,
+    "object-literal-sort-keys": false,
+    "import-name": false,
+    "no-loops": { "severity": "warn" },
+    "prefer-template": false,
+    "strict-boolean-expressions": [false],
+    "no-boolean-literal-compare": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2016", "dom"],
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "build",
+    "removeComments": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "src/**/*.test.*"]
+}

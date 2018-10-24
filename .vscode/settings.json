@@ -1,0 +1,30 @@
+{
+  "tslint.enable": true,
+  "prettier.bracketSpacing": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+
+  "search.exclude": {
+    "**/build": true
+  },
+
+  "files.exclude": {
+    "coverage": true,
+    "package-lock.json": true,
+    ".scannerwork": true
+  },
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Give Dockerfile.<something> the proper file icon and syntax highlighting
+  "files.associations": {
+    "[Dd]ockerfile*": "dockerfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "tslint-prettier-vscode-bug",
+  "version": "0.1.0",
+  "description": "Demos a bug with running TSLint, Prettier and tslint-plugin-prettier",
+  "main": "build/index.js",
+  "scripts": {
+    "prestart": "npx tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Morgis",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.14.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-no-loops": "^1.0.1",
+    "tslint-plugin-prettier": "^2.0.0",
+    "typescript": "^3.1.3"
+  }
+}
